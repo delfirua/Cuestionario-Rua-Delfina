@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <div class="contenedor">
+    <h1 class="titulo"> Reserva tu viaje</h1>
+     <p class="subtitulo">Completa el formulario y preparate para tu proxima aventura<p>
+         <form class="formulario" action="#" method="POST">
+             
+               <fieldset class="seccion">
+                 <legend class="subtitulo-seccion">Datos del viajera</legend>
+
+                  <div class="campo">
+                     <label for="nombre">Nombre completo</label>
+                      <input class="input" type="text" id="nombre" name="nombre"
+                      placeholder="Ej: Juan Perez" required>
+                  </div>
+
+                  <div class="campo">
+                     <label for="email">Correo electronico</label>
+                      <input class="input" type="email" id="email" name="email"
+                      placeholder="Ej: Juan@gmail.com" required>
+                  </div>
+
+                  <div class="campo">
+                     <label for="telefono">Telefono</label>
+                      <input class="input" type="tel" id="telefono" name="telefono"
+                      placeholder="Ej: +54 1234-5678" required>
+                  </div>
+                  
+               </fieldset>
+
+               <fieldset class="seccion">
+                <legend class="subtitulo-seccion">Informacion del viaje</legend>
+
+                <div class="campo">
+                    <label for="destino">Destino</label>
+
+                    <select class="input" id="destino" name="destino" required>
+                        <option
+                        value="">Elegi un destino...</option>
+
+                        <option
+                        value="paris">Paris</option>
+                        <option
+                        value="roma">Roma</option>
+                        <option
+                        value="barcelona">Barcelona</option>
+                        <option
+                        value="new-york">Ney-York</option>
+                        <option
+                        value="miami">Miami</option>
+                        <option
+                        value="rio">Rio de Janeiro</option>
+                </div>
+
+                <div class="campo">
+                    <label for="fecha">Fecha de viaje</label>
+                    <input class="input" type="date" id="fecha" name="fecha" required>
+                </div>
+
+                <div class="campo">
+                    <label>Tipo de viaje</label>
+
+                    <div class="opciones">
+                        <label class="opcion">
+
+                            <input type="radio" name="tipo" value="aventura">Aventura</label>
+                        <label class="opcion">
+
+                            <input type="radio" name="tipo" value="relajacion">Relajacion</label>
+                        <label class="opcion">
+
+                            <input type="radio" name="tipo" value="cultural">Cultural</label>
+                        <label class="opcion">
+
+                            <input type="radio" name="tipo" value="familiar">Familiar</label>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label>Actividades que te interesan</label>
+
+                    <div class="opciones">
+                        <label class="opcion">
+                            <input type="checkbox" name="actividad" value="playa">Playa</label>
+                         <label class="opcion">
+                            <input type="checkbox" name="actividad" value="museos">Museos</label>
+                        <label class="opcion">
+                            <input type="checkbox" name="actividad" value="comida">Gastronomia</label>
+                        <label class="opcion">
+                            <input type="checkbox" name="actividad" value="naturaleza">Naturaleza</label>
+                    </div>
+                </div>
+
+                <div class="campo">
+                    <label for="comentarios"> ¿que esperas de tu viaje?</label>
+                    <textarea class="input" id="comentarios" name="comentarios"  rows="4" placeholder="contanos que te gustaria hacer..."></textarea>
+                </div>
+               </fieldset>
+            <div class="botones">
+                <button class="boton-reservar">Reservar viaje</button>
+
+            <button class="boton-borrar" type="reset">Borrar</button>
+            </div>
+         </form>
+        </div>
+
+</body>
+</html>
+
+                            
+
+
+
+
+                        
+                        
+
+                        
+
+
+
+
+
+
+</body>
+</html>

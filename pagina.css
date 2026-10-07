@@ -16,12 +16,27 @@ section {
     margin: 20px 0;
 }
 
-.prop-tag {
+.titulo1 {
     display: inline-block;
-    background-color: antiquewhite;
+    background-color: pink;
     padding: 8px;
     margin-bottom: 10px;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(185, 100, 114);
 }
+
+h2{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(102, 54, 62) ;
+}
+
+p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 .contenedor {
     display: inline-block;
@@ -29,7 +44,7 @@ section {
     width: 30%;
     margin: 1%;
     padding: 15px;
-    background-color: wheat;
+    background-color: #e9dcd6;
 }
 
 .contimg {
@@ -42,12 +57,25 @@ section {
 
 
 
-.button {
-    background-color: #333;
-    color: rgb(161, 98, 117);
-    padding: 10px 15px;
+.boton {
+    background-color: #c98f96;
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    width:fit-content;
+    height: 50px;
     border: none;
     cursor: pointer;
+    transition:all o.3s ease;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.boton:hover{
+    transform: scale(1.15);
+    background-color: #c98f96;
 }
 
 .experiencias {
@@ -63,7 +91,7 @@ section {
 }
 
  .banner{
-    height: 500px;
+    height: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +100,48 @@ section {
     background-color: antiquewhite;
 }
 .foto_banner{
-    height: 500px;  
-    width: 1200px;
+    height: 1000px;  
+    width: 1700px;
 }
+
+h3{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c98f96;
+}
+
+ .principio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    background-color: #faebd7;
+    border: 1px;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 14px;
+ }
+
+ .tituloprincipio{
+    font-size: 50px;
+    margin-bottom: 7px;
+ }
+
+ .textoprincipio{
+    font-size: 30px;
+    color: black;
+ }
+
+ .imagenprincipio{
+    width: 155px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 1000px;
+    max-height: 850px;
+   
+ }
